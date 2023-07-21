@@ -1,6 +1,6 @@
 import { useTheme } from '@mui/material';
 import { ResponsiveBar } from '@nivo/bar';
-import { mockBarData as data } from '../data/mockData';
+import { MockBarData as data } from '../data/MockData';
 import { tokens } from '../theme';
 
 export const BarChart = ({ isDashboard = false }) => {

@@ -1,6 +1,6 @@
 import { useTheme } from '@mui/material';
 import { ResponsiveLine } from '@nivo/line';
-import { mockLineData as data } from '../data/mockData';
+import { MockLineData as data } from '../data/MockData';
 import { tokens } from '../theme';
 
 export const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {

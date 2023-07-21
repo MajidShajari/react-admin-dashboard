@@ -1,6 +1,6 @@
 import { tokens } from '../theme';
 
-export const mockDataTeam = [
+export const MockDataTeam = [
     {
         id: 1,
         name: 'Jon Snow',
@@ -75,7 +75,7 @@ export const mockDataTeam = [
     },
 ];
 
-export const mockDataContacts = [
+export const MockDataContacts = [
     {
         id: 1,
         name: 'Jon Snow',
@@ -199,7 +199,7 @@ export const mockDataContacts = [
     },
 ];
 
-export const mockDataInvoices = [
+export const MockDataInvoices = [
     {
         id: 1,
         name: 'Jon Snow',
@@ -266,7 +266,7 @@ export const mockDataInvoices = [
     },
 ];
 
-export const mockTransactions = [
+export const MockTransactions = [
     {
         txId: '01e4dsa',
         user: 'johndoe',
@@ -317,7 +317,7 @@ export const mockTransactions = [
     },
 ];
 
-export const mockBarData = [
+export const MockBarData = [
     {
         country: 'AD',
         'hot dog': 137,
@@ -397,7 +397,7 @@ export const mockBarData = [
     },
 ];
 
-export const mockPieData = [
+export const MockPieData = [
     {
         id: 'hack',
         label: 'hack',
@@ -430,7 +430,7 @@ export const mockPieData = [
     },
 ];
 
-export const mockLineData = [
+export const MockLineData = [
     {
         id: 'japan',
         color: tokens('dark').greenAccent[500],
@@ -595,7 +595,7 @@ export const mockLineData = [
     },
 ];
 
-export const mockGeographyData = [
+export const MockGeographyData = [
     {
         id: 'AFG',
         value: 520600,

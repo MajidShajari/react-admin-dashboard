@@ -10,7 +10,7 @@ import { Header } from '../../components/Header';
 import { LineChart } from '../../components/LineChart';
 import { ProgressCircle } from '../../components/ProgressCircle';
 import { StatBox } from '../../components/StatBox';
-import { mockTransactions } from '../../data/mockData';
+import { MockTransactions } from '../../data/MockData';
 import { tokens } from '../../theme';
 
 export const Dashboard = () => {
@@ -137,7 +137,7 @@ export const Dashboard = () => {
                             Recent Transactions
                         </Typography>
                     </Box>
-                    {mockTransactions.map((transaction, i) => (
+                    {MockTransactions.map((transaction, i) => (
                         <Box
                             key={`${transaction.txId}-${i}`}
                             display="flex"

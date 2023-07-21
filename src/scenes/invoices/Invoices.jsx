@@ -1,7 +1,7 @@
 import { Box, Typography, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { Header } from '../../components/Header';
-import { mockDataInvoices } from '../../data/mockData';
+import { MockDataInvoices } from '../../data/MockData';
 import { tokens } from '../../theme';
 
 export const Invoices = () => {
@@ -70,7 +70,7 @@ export const Invoices = () => {
                     },
                 }}
             >
-                <DataGrid checkboxSelection rows={mockDataInvoices} columns={columns} />
+                <DataGrid checkboxSelection rows={MockDataInvoices} columns={columns} />
             </Box>
         </Box>
     );

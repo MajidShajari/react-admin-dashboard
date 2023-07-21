@@ -4,7 +4,7 @@ import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 import { Box, Typography, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { Header } from '../../components/Header';
-import { mockDataTeam } from '../../data/mockData';
+import { MockDataTeam } from '../../data/MockData';
 import { tokens } from '../../theme';
 
 export const Team = () => {
@@ -51,8 +51,8 @@ export const Team = () => {
                             access === 'admin'
                                 ? colors.greenAccent[600]
                                 : access === 'manager'
-                                ? colors.greenAccent[700]
-                                : colors.greenAccent[700]
+                                    ? colors.greenAccent[700]
+                                    : colors.greenAccent[700]
                         }
                         borderRadius="4px"
                     >
@@ -100,7 +100,7 @@ export const Team = () => {
                     },
                 }}
             >
-                <DataGrid checkboxSelection rows={mockDataTeam} columns={columns} />
+                <DataGrid checkboxSelection rows={MockDataTeam} columns={columns} />
             </Box>
         </Box>
     );
